@@ -1,10 +1,3 @@
-def reverse_each_word(string)
-
-  words = string.split
-  words.collect do |word|
-    word.reverse
-  end
-  product = words.join(" ")
-  return product
-
+def reverse_each_word(sentence)
+  sentence.split.collect {|word| word.reverse}.join(" ")
 end
