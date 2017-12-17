@@ -5,6 +5,6 @@ def reverse_each_word(string)
     word.reverse
   end
   product = words.join(" ")
-  product
+  return product
 
 end
